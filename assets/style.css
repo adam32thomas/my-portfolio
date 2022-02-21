@@ -12,13 +12,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: gainsboro;
+    background-color: silver;
     background-size: 72px;
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #dcdcdc;
+    color: silver;
     background-color: navy;
     margin: 0;
     padding: 1.5%;
@@ -34,7 +34,6 @@ header nav ul {
     display: flex;
     flex-wrap: flex;
     justify-content: space-evenly;
-    align-items: stretch;
     list-style: none;
 }
 header nav ul li {
@@ -50,5 +49,82 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 1.5vw;
+    align-items: baseline;
 }
+.hero {
+    background-image: url("../images/star-banner.png");
+    background-size: cover;
+    height: 250px;
+    position: relative;
+    background-color: silver;
+    color: whitesmoke;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+.subtitle {
+   margin: 0 35px 20px 0;
+   background-color: silver; 
+   color: navy;
+   font-size: 2vw;
+   padding: 10px;
+}
+.about-me {
+    background-color: silver;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 5%;
+}
+.about-me h2 {
+    color: navy;
+    border-right: 3px solid navy;
+    padding-right: 1%;
+}
+.content {
+    flex-direction: column;
+}
+.content p {
+    margin: 0 auto 3% 2%;
+}
+.work {
+    background-color: silver;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 5%;
+}
+.work h2 {
+    color: navy;
+    border-right: 3px solid navy;   
+}
+footer {
+    background-color: silver;
+    display: flex;
+    text-decoration: none;
+}
+footer h2 {
+    color: navy;
+    border-right: 3px solid navy;
+}
+footer nav ul {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+footer nav ul li {
+    display: inline-flex;
+    padding: auto;
+    border-bottom: 3px solid navy;
+    max-width: 30%;
+    margin: 0 5px;
 
+}
+footer nav ul li a {
+    color: navy;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    align-items: baseline;
+    text-decoration: none;
+}
